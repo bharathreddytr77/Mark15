@@ -1,6 +1,6 @@
-# React + Vite
+# 3d-website (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project uses React and Vite to build a 3D web application with hot module replacement (HMR) and ESLint configuration.
 
 Currently, two official plugins are available:
 
