@@ -1,4 +1,3 @@
-// src/components/Scene.jsx
 import React from 'react';
 import ModelViewer from './ModelViewer';
 
