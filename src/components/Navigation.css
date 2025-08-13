@@ -1,0 +1,35 @@
+nav {
+  background-color: transparent; /* fully transparent */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  padding: 1rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+/* Hover effect */
+nav a:hover {
+  color: #00d8ff;
+  border-bottom: 2px solid #00d8ff;
+}
+
+/* Active (clicked) link styling */
+nav a.active {
+  color: #00d8ff;
+  border-bottom: 2px solid #00d8ff;
+}
